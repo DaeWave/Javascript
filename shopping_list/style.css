@@ -1,0 +1,65 @@
+/* Just craeting a global and basic body styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: white;
+}
+/* This container will also just give some basic styling to making the shopping list more appealing */
+.container {
+  border: solid;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  top: 40%;
+  background-color: #1669A4;
+  color: white;
+  border-width: 10px;
+}
+/* The header and heading basic styling */
+.header {
+  display: inline-flex;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 8%;
+  font-size: 50px;
+}
+/* The input button styling */
+#input {
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+/* Styling the button */
+button {
+  padding: 10px 25px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: white;
+  border-width: 2px;
+  font-size: 15px;
+}
+/* Styling the ul tag */
+ul {
+  padding-top: 5%;
+  color: white;
+  font-size: 30px;
+}
+/* Styling the span tag */
+span.close {
+  position: absolute;
+  right: 30%;
+}
+/* Checked class list */
+.checked {
+  color: black;
+}
